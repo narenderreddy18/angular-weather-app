@@ -1,0 +1,8 @@
+<input type="text" [(ngModel)]="searchCity" (keydown.enter)="onSearch()">
+<button (click)="onSearch()">Search</button>
+
+<mat-tab-group>
+  <mat-tab *ngFor="let city of cities" [label]="city">
+    <app-weather-display [city]="city"></app-weather-display>
+  </mat-tab>
+</mat-tab-group>

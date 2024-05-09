@@ -1,0 +1,10 @@
+.hourly-forecast-container {
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    white-space: nowrap;
+  }
+  
+  .hourly-forecast-item {
+    margin-right: 20px;
+  }  
